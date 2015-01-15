@@ -1,7 +1,7 @@
 ﻿Client-Server Modelling
 =========================
 
-<h1> Description </h1>
+<h2> Description </h2>
 
 Program simulates interaction between server and clients (n <= 10). Server process abstract transactions from clients. Server and clients run in separate threads. Data from clients inserts to priority queue. Server pop that data from queue and write record to log file.
 
@@ -26,7 +26,7 @@ System structure:
                     +-----------+      +------------+
 ```
 
-<h1> Structure of Input Request </h1>
+<h2> Structure of Input Request </h2>
 
 ```
 typedef struct tagTDATA
